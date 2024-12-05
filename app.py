@@ -14,9 +14,8 @@ st.write("Enter the values for customer's annual income and spending score to pr
 annual_income = st.number_input("Annual Income (k$):", min_value=0, max_value=200, step=1, value=15)
 spending_score = st.number_input("Spending Score (1-100):", min_value=1, max_value=100, step=1, value=50)
 
-# Predict button
-def rain(emoji):
-    pass
+# Show the emoji rain when the page is loaded
+rain(emoji="🎈", font_size=54, falling_speed=5, animation_length="infinite")
 
 
 if st.button("Predict Customer's Segmentation"):
