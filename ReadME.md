@@ -88,7 +88,7 @@ The Streamlit app provides an interface for users to input feature values and ge
 ## Example Input and Output
 Example Input:
 
-Annual Income = 18
+Annual Income = 18,
 Spending Score = 72
 
 Example Output:
@@ -113,5 +113,5 @@ The project directory is structured as follows:
 └─NBSPrequirements.txt
 ```
 ## License
-This project is licensed under [![License: MIT](https://img.shi)
+This project is licensed under [![License: MIT](https://img.shields.io/)
 
